@@ -172,7 +172,6 @@ const styles = {
     borderBottomWidth: StyleSheet.hairlineWidth,
     paddingHorizontal: 10,
     backgroundColor: theme.colors.primary,
-    paddingTop: getStatusBarHeight(),
     flexDirection: 'row',
     justifyContent: 'space-between',
     alignItems: 'center',
@@ -180,7 +179,7 @@ const styles = {
       Platform.select({
         android: 56,
         default: 44,
-      }) + getStatusBarHeight(),
+      }) + 5,
   }),
   centerContainer: {
     flex: 3,
