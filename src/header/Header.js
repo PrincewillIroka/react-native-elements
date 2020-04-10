@@ -171,6 +171,7 @@ const styles = {
     borderBottomColor: '#f2f2f2',
     borderBottomWidth: StyleSheet.hairlineWidth,
     paddingHorizontal: 10,
+    marginTop: getStatusBarHeight(),
     backgroundColor: theme.colors.primary,
     flexDirection: 'row',
     justifyContent: 'space-between',
